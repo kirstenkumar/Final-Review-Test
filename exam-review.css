@@ -1,0 +1,14 @@
+h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+h4 {
+  text-transform: uppercase;
+  border-bottom: 2px solid;
+  margin-bottom: 20px;
+}
+
+h2 {
+  border-bottom: 1px dashed;
+}
