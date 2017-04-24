@@ -2,13 +2,37 @@ h1 {
   font-size: 45px;
   font-weight: bold;
 }
-
 h4 {
   text-transform: uppercase;
   border-bottom: 2px solid;
   margin-bottom: 20px;
 }
-
 h2 {
   border-bottom: 1px dashed;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background: darkgrey;
+}
+.container { /*See InClass2.27 for help*/
+  maximum-width: 800px;
+  margin: 0 auto;
+  background: white;
+  padding: 50px;
+  overflow: auto;
+}
+@media (min-width: 600px) {
+.right-column {
+  background: #f7f7f7;
+  float: left;
+  width: 30%;
+  padding: 15px;
+}
+.left-column {
+  float: left;
+  width: 70%;
+  padding: 15px;
+}
 }
